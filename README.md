@@ -1,2 +1,1 @@
-# posmotri_v_okno
-# posmotri_v_okno
+git@github.com:lyrelka/posmotri_v_okno.git

@@ -241,33 +241,19 @@ a {
   width: 100%;
 }
 
-.content__list-item {
-  padding: 2px 0;
+.content__card-link {
+  display: block;
+  padding: 2px 0 2px 5px;
 }
 
-.content__list-item:active {
+.content__card-link:active {
+  outline: none;
   padding-top: 2px;
   padding-bottom: 2px;
   text-decoration: none;
 }
 
-.content__list-item:has(:focus-visible) {
-  padding-top: 0;
-  padding-bottom: 0;
-  margin: 2px 0 2px 0;
-}
-
-.content__card-link {
-  display: block;
-  padding-left: 5px;
-}
-
-.content__card-link:active {
-  outline: none;
-}
-
-/*крашу блок, в котором ссылка, а не саму ссылку, для сохранения отступов*/
-.content__list-item:has(.content__card-link_current) {
+.content__card-link_current {
   background-color: #505050;
 }
 
